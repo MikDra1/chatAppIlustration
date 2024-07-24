@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Chat app CSS illustration - MikDra1</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="background"></div>
+      <div class="background2"></div>
+      <div class="phone">
+        <div class="user">
+          <div class="island"></div>
+          <p class="user__arrow">&#129168;</p>
+          <img src="images/avatar.jpg" alt="" class="user__img" />
+          <div class="user__data">
+            <span class="user__name">Samuel Green</span>
+            <span class="user__state">Available to Walk</span>
+          </div>
+          <p class="menu"></p>
+        </div>
+
+        <p class="left message">
+          That sounds great. I’d be<br />
+          happy with that.
+        </p>
+
+        <p class="left message">
+          Could you send over some<br />
+          pictures of your dog, please?
+        </p>
+
+        <div class="photos right message">
+          <img src="images/dog-image-1.jpg" alt="" />
+          <img src="images/dog-image-2.jpg" alt="" />
+          <img src="images/dog-image-3.jpg" alt="" />
+        </div>
+
+        <p class="right message shadow">
+          Here are a few pictures. She’s<br />
+          a happy girl!
+        </p>
+
+        <p class="right message shadow mb">Can you make it?</p>
+
+        <p class="left message">
+          She looks so happy! The time<br />
+          we discussed works. How<br />
+          long shall I take her out for?
+        </p>
+
+        <div class="left option message">
+          <div class="option__wrapper">
+            <div class="ring"></div>
+
+            <p class="time">30 minute walk</p>
+          </div>
+          <p class="price">$29</p>
+        </div>
+        <div class="left option message">
+          <div class="option__wrapper">
+            <div class="ring"></div>
+            <p class="time">1 hour walk</p>
+          </div>
+          <p class="price">$49</p>
+        </div>
+
+        <form class="send">
+          <input class="input" type="text" placeholder="Type a message…" />
+          <button class="send__arrow">
+            <img src="images/right-arrow.png" alt="" />
+          </button>
+        </form>
+      </div>
+
+      <div class="content">
+        <h1>Simple booking</h1>
+
+        <h2 class="description">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </h2>
+      </div>
+    </div>
+  </body>
+</html>
